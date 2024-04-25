@@ -5,7 +5,7 @@ import {
   SelectItem,
   SelectTrigger,
   SelectValue,
-} from "@/components/ui/select";
+} from "@/src/components/ui/select";
 import { useParams, useRouter } from "next/navigation";
 
 import { defaultLocale, localeNames } from "@/lib/i18n";

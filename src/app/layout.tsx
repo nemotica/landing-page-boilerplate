@@ -1,12 +1,12 @@
-import BaiDuAnalytics from "@/app/BaiDuAnalytics";
-import GoogleAnalytics from "@/app/GoogleAnalytics";
-import { TailwindIndicator } from "@/components/TailwindIndicator";
-import { ThemeProvider } from "@/components/ThemeProvider";
-import Footer from "@/components/footer/Footer";
-import Header from "@/components/header/Header";
 import { siteConfig } from "@/config/site";
 import { defaultLocale } from "@/lib/i18n";
 import { cn } from "@/lib/utils";
+import BaiDuAnalytics from "@/src/app/BaiDuAnalytics";
+import GoogleAnalytics from "@/src/app/GoogleAnalytics";
+import { TailwindIndicator } from "@/src/components/TailwindIndicator";
+import { ThemeProvider } from "@/src/components/ThemeProvider";
+import Footer from "@/src/components/footer/Footer";
+import Header from "@/src/components/header/Header";
 import "@/styles/globals.css";
 import "@/styles/loading.css";
 import { Analytics } from "@vercel/analytics/react";

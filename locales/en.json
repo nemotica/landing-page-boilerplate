@@ -1,9 +1,9 @@
 {
   "Hero": {
-    "title1": "Ship",
-    "title2": "Landing Page",
-    "title3": "Fast",
-    "description": "A free, open-source, and powerful landing page boilerplate, ideal for various projects, enabling you to create a landing page in under an hour."
+    "title1": "Fast & Smart",
+    "title2": "Fire Calculator",
+    "title3": "",
+    "description": "A free and powerful Fire Calculator, ideal for people who doesn't wanna work for STUPID bosses and WEAK colleagues and wanna know how long you can live if you RETIRE NOW."
   },
   "SocialProof": {
     "maker": "makers ship fast"
@@ -38,6 +38,6 @@
     "description6": "!"
   },
   "CTAButton": {
-    "title": "Get Boilerplate"
+    "title": "Calculate now"
   }
 }

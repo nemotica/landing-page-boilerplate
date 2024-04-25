@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
-import { TwitterX } from "@/components/social-icons/icons";
 import { siteConfig } from "@/config/site";
 import { WALL_OF_LOVE } from "@/config/wallOfLove";
+import { TwitterX } from "@/src/components/social-icons/icons";
 import Image from "next/image";
 import Link from "next/link";
 import { RoughNotation } from "react-rough-notation";

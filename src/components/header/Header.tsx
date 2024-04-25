@@ -1,7 +1,7 @@
 "use client";
-import HeaderLinks from "@/components/header/HeaderLinks";
-import { LangSwitcher } from "@/components/header/LangSwitcher";
 import { siteConfig } from "@/config/site";
+import HeaderLinks from "@/src/components/header/HeaderLinks";
+import { LangSwitcher } from "@/src/components/header/LangSwitcher";
 import { MenuIcon } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
@@ -14,14 +14,14 @@ const links = [
     label: "Features",
     href: "#Features",
   },
-  {
-    label: "Pricing",
-    href: "#Pricing",
-  },
-  {
-    label: "Wall of Love",
-    href: "#WallOfLove",
-  },
+  // {
+  //   label: "Pricing",
+  //   href: "#Pricing",
+  // },
+  // {
+  //   label: "Wall of Love",
+  //   href: "#WallOfLove",
+  // },
   {
     label: "FAQ",
     href: "#FAQ",
@@ -48,7 +48,7 @@ const Header = () => {
               height={32}
             />
             <span className="text-gray-950 dark:text-gray-300 hidden md:block">
-              Landing Page Boilerplate
+              躺平计算器
             </span>
           </Link>
         </div>

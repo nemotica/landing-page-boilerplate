@@ -1,12 +1,10 @@
-import CTA from "@/components/home/CTA";
-import FAQ from "@/components/home/FAQ";
-import Feature from "@/components/home/Feature";
-import Hero from "@/components/home/Hero";
-import Pricing from "@/components/home/Pricing";
-import ScrollingLogos from "@/components/home/ScrollingLogos";
-import SocialProof from "@/components/home/SocialProof";
-import WallOfLove from "@/components/home/WallOfLove";
 import { defaultLocale, getDictionary } from "@/lib/i18n";
+import CTA from "@/src/components/home/CTA";
+import Calculator from "@/src/components/home/Caculator";
+import FAQ from "@/src/components/home/FAQ";
+import Hero from "@/src/components/home/Hero";
+import SocialProof from "@/src/components/home/SocialProof";
+import WallOfLove from "@/src/components/home/WallOfLove";
 
 export default async function LangHome({
   params: { lang },
@@ -25,13 +23,16 @@ export default async function LangHome({
       <Hero locale={dict.Hero} CTALocale={dict.CTAButton} />
       <SocialProof locale={dict.SocialProof} />
       {/* Can be used to display technology stack, partners, project honors, etc. */}
-      <ScrollingLogos />
+      {/* <ScrollingLogos /> */}
 
       {/* USP (Unique Selling Proposition) */}
-      <Feature id="Features" locale={dict.Feature} langName={langName} />
+      {/* <Feature id="Features" locale={dict.Feature} langName={langName} /> */}
 
       {/* Pricing */}
-      <Pricing id="Pricing" locale={dict.Pricing} langName={langName} />
+      {/* <Pricing id="Pricing" locale={dict.Pricing} langName={langName} /> */}
+
+      {/* Fire Calculator */}
+      <Calculator id="Calculator" locale={dict.Calculator} />
 
       {/* Testimonials / Wall of Love */}
       <WallOfLove id="WallOfLove" locale={dict.WallOfLove} />

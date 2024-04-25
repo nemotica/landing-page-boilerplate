@@ -1,7 +1,7 @@
-import FooterLinks from "@/components/footer/FooterLinks";
-import FooterProducts from "@/components/footer/FooterProducts";
-import LangLinks from "@/components/footer/LangLinks";
 import { siteConfig } from "@/config/site";
+import FooterLinks from "@/src/components/footer/FooterLinks";
+import FooterProducts from "@/src/components/footer/FooterProducts";
+import LangLinks from "@/src/components/footer/LangLinks";
 import Link from "next/link";
 
 const Footer = () => {

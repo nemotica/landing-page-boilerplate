@@ -1,6 +1,6 @@
 "use client";
-import { LineText } from "@/components/LineText";
-import CTAButton from "@/components/home/CTAButton";
+import { LineText } from "@/src/components/LineText";
+import CTAButton from "@/src/components/home/CTAButton";
 import { motion } from "framer-motion";
 
 const Hero = ({ locale, CTALocale }: { locale: any; CTALocale: any }) => {

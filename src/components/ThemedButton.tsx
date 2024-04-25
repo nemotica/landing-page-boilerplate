@@ -1,6 +1,6 @@
 "use client";
-import PhMoonFill from "@/components/icons/moon";
-import PhSunBold from "@/components/icons/sun";
+import PhMoonFill from "@/src/components/icons/moon";
+import PhSunBold from "@/src/components/icons/sun";
 import { useTheme } from "next-themes";
 
 export function ThemedButton() {
