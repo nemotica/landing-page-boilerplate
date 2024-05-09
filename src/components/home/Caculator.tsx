@@ -5,7 +5,8 @@ import { RoughNotation } from "react-rough-notation";
 
 //import styles from './calculator.module.css';
 
-const Calculator = ({ id, locale }: { id: String, locale: any }) => {
+// const Calculator = ({ id, locale }: { id: String, locale: any }) => {
+const Calculator = (locale: any) => {
 
   const [formData, setFormData] = useState({
     assets: 0,

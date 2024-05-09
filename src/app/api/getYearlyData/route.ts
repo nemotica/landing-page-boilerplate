@@ -59,12 +59,10 @@ export const POST = async (request: Request) => {
     }
   }
 
-
-
   if (n > targetYear) {
     //console.log('result: ' + yearlyData);
-    return NextResponse.json({ message: "你的 fire 方案可以持续超过" + targetYear.toString() + " 年！恭喜你自由了！", yearlyData });
+    return NextResponse.json({ message: "恭喜你可以躺 " + targetYear.toString() + " 年！", yearlyData });
   } else {
-    return NextResponse.json({ message: "你的 fire 方案可以持续 " + n.toString() + " 年", yearlyData });
+    return NextResponse.json({ message: "很遗憾，你只能躺 " + n.toString() + " 年", yearlyData });
   }
 }

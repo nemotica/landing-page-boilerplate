@@ -32,7 +32,8 @@ export default async function LangHome({
       {/* <Pricing id="Pricing" locale={dict.Pricing} langName={langName} /> */}
 
       {/* Fire Calculator */}
-      <Calculator id="Calculator" locale={dict.Calculator} />
+      {/* <Calculator id="Calculator" locale={dict.Calculator} /> */}
+      <Calculator locale={dict.Calculator} />
 
       {/* Testimonials / Wall of Love */}
       <WallOfLove id="WallOfLove" locale={dict.WallOfLove} />
