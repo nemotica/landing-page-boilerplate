@@ -14,7 +14,6 @@ import { Viewport } from "next";
 import { Inter as FontSans } from "next/font/google";
 
 // wy createdAt 2024-05-08 15:20
-import { ClerkProvider } from '@clerk/nextjs';
 
 export const fontSans = FontSans({
   subsets: ["latin"],
@@ -47,7 +46,7 @@ export default async function RootLayout({
     <html lang={(lang && lang[0]) || defaultLocale} suppressHydrationWarning>
       <head />
       {/* wy createdAt 2024-05-08 15:20 */}
-      <ClerkProvider>
+      {/* <ClerkProvider> */}
         {/*  wy createdAt 2024-05-08 15:20 */}
         <body
           className={cn(
@@ -77,7 +76,7 @@ export default async function RootLayout({
         </body>
 
         {/* wy createdAt 2024-05-08 15:20 */}
-      </ClerkProvider>
+      {/* </ClerkProvider> */}
       {/*  wy createdAt 2024-05-08 15:20 */}
 
     </html>
